@@ -3,9 +3,9 @@ import os # operating system library
 
 def create_api():
   consumer_key = os.getenv('O4LSc7LXoA7EufH3m5YA05vL6')
-  consumer_secret = os.getenv('AAAAAAAAAAAAAAAAAAAAAOpqHAEAAAAAjDi1Evm1VocDKu580dgGckhYE90%3DtZSYTOK2yGOEZVNtZSFJ0Wr5rhtRjZZmbi2F5gMHHN2fBZBwGP')
-  access_token = os.getenv('1318019766-LLtfA9MI0xEdGKbp7dK80wr61grxuwxnrACPyQ6')
-  access_token_secret = os.getenv('xJxvotMkCDjMJ5wqahKtFR25gNqWMpgIvZh8pbG4A1XKm')
+  consumer_secret = os.getenv('kISDApWiktsJ8hQ6RMEyRXcRHVKiiu3556bPjaBpyPnZtVOku9')
+  access_token = os.getenv('1318019766-GgenUna1ybJvd3DlhmMrmgJsNhGKPbSpOapqjCj')
+  access_token_secret = os.getenv('6fE361QpTTdsLSjouDB7vn6nyiDeRzVziyQ65JuXC2cxL')
 
   auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
   auth.set_access_token(access_token, access_token_secret)
